@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BBQ Bulldog</title>
+       <meta name="description" content="BBQ Bulldog: Authentic smoked meats and BBQ in Equestria. Family-run with passion for flavor. View our menu and contact us today!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="faviconBulldog.ico">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <!-- <img src="BULLDOG BBQ (2).jpg" alt="BBQ Bulldog Logo" class="logoSmall"> -->
+                <img class="smallBanner" src="smallerlogo3.png" alt="">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" onclick="scrollToMenu()">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" onclick="contactFunc()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Banner with Logo -->
+        <header class="banner">
+            <div class="banner-content">
+                <img src="BULLDOG BBQ (2).jpg" alt="BBQ Bulldog Logo" class="logo">
+                <p class="tagline">OUR PASSION FOR MEAT IS IN THE TASTE</p>
+            </div>
+        </header>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <h2>OUR MENU</h2>
+                <br>
+                <p>View our Restaurant Menu or Our SmokeHouse Menu</p>
+                <br>
+                <br>
+                <div class="menu-grid">
+                    <a href="https://www.ultimate-guitar.com/">
+                    <div class="menu-item1">
+                        <img src="CircleBulldog.png" alt="">
+                        <p>BBQ Bulldog Menu</p>
+                        </div>
+                        </a>
+                          <a href="https://www.ultimate-guitar.com/">
+                        <div class="menu-item2">
+                        <img src="fatmancirc.png" alt="">
+                        <p>Fatman Menu</p>
+                    </div>
+                          </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2>About BBQ Bulldog</h2>
+                <p>Welcome to BBQ Bulldog, A family run bussiness with high family values.
+                    We are dedicated to bringing you the best BBQ experience with our mouth-watering smoked meats through a long smoking process
+                </p>
+                <br><br>
+               
+            </div>
+        </section>
+        <!-- Pictures (grid) -->
+        <section class="gallery-grid">
+            <div class="gallery-text">
+                <h1>REAL SMOKE. REAL FLAVOUR.</h1>
+                <p>At BBQ Bulldog, we take pride in delivering an authentic smokehouse experience rooted in passion and flavour.
+                     Born during the height of COVID, we turned challenging times into creative freedom,
+                      drawing inspiration from classic American barbecue while putting our own bold spin on it.
+                       Every cut of meat is slow-smoked with care, because great BBQ takes time.</p>
+            </div>
+            <div class="gallery-image">
+                <img src="100_3870.JPG" alt="BBQ Bulldog food">
+            </div>
+
+            <div class="gallery-image">
+                <img src="meat1.jpg" alt="BBQ Bulldog ribs">
+            </div>
+            <div class="gallery-text">
+                <h1>WHERE FLAVOUR MEETS PASSION</h1>
+                <p>We’re a family-run business driven by a love for food and bringing people together. 
+                    From smoky, tender meats to unforgettable flavours, BBQ Bulldog is built on passion and taste.
+                     We also cater for weddings, functions, and events—bringing real smokehouse BBQ wherever the fire is needed.</p>
+            </div>
+        </section>
+        
+        
+
+        <!-- Meat Pictures Grid -->
+        <section class="meat-gallery">
+            <img src="Meatpic1.jpg" alt="Meat Picture 1">
+            <img src="Meatpic2.jpg" alt="Meat Picture 2">
+            <img src="Meatpic3.jpg" alt="Meat Picture 3">
+            <img src="Meatpic4.jpg" alt="Meat Picture 4">
+            <img src="Meatpic5.png" alt="Meat Picture 5">
+            <img src="Meatpic6.png" alt="Meat Picture 6">
+        </section>
+
+        <!-- Contact Modal -->
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span  class="close" onclick="closeContactModal()">&times; </span>
+                <h2>Contact Us</h2>
+                <hr><hr>
+                <br>
+                <div class="contact-info">
+                        <a href="tel:+0680671160" target="_blank" rel="noopener noreferrer">Phone: 068 067 1160</a>
+                        <a href="mailto:bulldogbbq1@gmail.com">Email: bulldogbbq1@gmail.com</a>
+                        <div class="links">
+                        <a href="https://www.facebook.com/p/BullDog-BBQ-100057273557065/" target="_blank" rel="noopener noreferrer">
+                            <img src="facebook (2).png" alt="Facebook Logo" class="social-logo">Facebook</a>
+                        <a href="https://www.instagram.com/bulldogbbqmeat/" target="_blank" rel="noopener noreferrer">
+                            <img src="instagram (2).png" alt="Instagram Logo" class="social-logo">Instagram</a>
+                             </div>
+                        <img class="ContactImg" src="CircleBulldog.png" alt="">
+                     
+                </div>
+
+            </div>
+        </div>
+        <!-- Embedded Google Map -->
+         <div class="maptitel">Where To Find us!
+            <p>4 MEADOW AVE, EQUESTRIA</p>
+         </div>
+         <div class="embed-map-fixed">
+            <div class="embed-map-container">
+                <iframe class="embed-map-frame" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                    src="https://maps.google.com/maps?width=600&height=400&hl=en&q=4%20Meadow%20avenue%20equestria&t=&z=15&ie=UTF8&iwloc=B&output=embed">
+                </iframe>
+                <a href="https://classicjoy.games" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">Retro Games Online</a>
+            </div>
+         </div>
+
+
+        <footer class="footer">
+
+        
+            <p>Tuesday to Thursday 08:30 - 19:00</p>
+            <p>Friday 08:30 - 19:30</p>
+            <p>Saturday 08:30 - 19:30</p>
+            <p>Sunday 08:30 - 17:00</p>
+            <br>
+            <h2>BBQ Bulldog™</h2>
+        </footer>
+
+        <script src="js.js"></script>
+    </body>
+</html>
